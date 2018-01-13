@@ -17,3 +17,7 @@ a {
 a:hover {
     color: rgb(20, 116, 224)
 }
+
+img:hover {
+    opacity: .9;
+}
