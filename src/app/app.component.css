@@ -1,18 +1,21 @@
-    h1 {
-        display: flex;
-        justify-content: center;
-        font-family: 'Arial Narrow Bold', sans-serif;
-        animation-name: example;
-        animation-duration: 15s;
-        color: red;
-        background-image: url("http://lab.empirio.no/media/images/background.png");
-    }
-    
-    @keyframes example {
-        from {
-            color: rgb(1, 247, 226);
-        }
-        to {
-            color: teal;
-        }
-    }
+   div {
+       background-image: url("http://lab.empirio.no/media/images/background.png");
+   }
+   
+   h1 {
+       display: flex;
+       justify-content: center;
+       font-family: 'Arial Narrow Bold', sans-serif;
+       animation-name: example;
+       animation-duration: 15s;
+       color: red;
+   }
+   
+   @keyframes example {
+       from {
+           color: rgb(1, 247, 226);
+       }
+       to {
+           color: teal;
+       }
+   }
