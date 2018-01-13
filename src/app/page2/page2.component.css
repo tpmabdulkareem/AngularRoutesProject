@@ -1,9 +1,21 @@
 div {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    color: rgb(87, 1, 1);
 }
 
 a {
     text-decoration: none;
-    text-decoration-color: rgb(23, 0, 46);
+    text-decoration-color: rgb(100, 17, 2);
+}
+
+img {
+    width: 40%;
+    height: 8%;
+}
+
+.dd {}
+
+a:hover {
+    color: rgb(20, 116, 224)
 }
